@@ -1,0 +1,15 @@
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\bin\Debug\netcoreapp3.1\Codenation.Infra.Data.deps.json
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\bin\Debug\netcoreapp3.1\Codenation.Infra.Data.dll
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\obj\Debug\netcoreapp3.1\Codenation.Infra.Data.csprojAssemblyReference.cache
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\obj\Debug\netcoreapp3.1\Codenation.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\obj\Debug\netcoreapp3.1\Codenation.Infra.Data.AssemblyInfo.cs
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\bin\Debug\netcoreapp3.1\Codenation.Dominio.dll
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\bin\Debug\netcoreapp3.1\Codenation.Infra.Data.runtimeconfig.json
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\bin\Debug\netcoreapp3.1\Codenation.Infra.Data.runtimeconfig.dev.json
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\bin\Debug\netcoreapp3.1\Codenation.Infra.Data.pdb
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\bin\Debug\netcoreapp3.1\Codenation.Dominio.pdb
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\obj\Debug\netcoreapp3.1\Codenation.Infra.Data.csproj.CopyComplete
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\obj\Debug\netcoreapp3.1\Codenation.Infra.Data.dll
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\obj\Debug\netcoreapp3.1\Codenation.Infra.Data.pdb
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\obj\Debug\netcoreapp3.1\Codenation.Infra.Data.genruntimeconfig.cache
+C:\Users\aless\source\repos\Codenation\Codenation.Infra.Data\obj\Debug\netcoreapp3.1\Codenation.Infra.Data.csproj.CoreCompileInputs.cache
