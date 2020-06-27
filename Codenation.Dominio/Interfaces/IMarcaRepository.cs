@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Codenation.Infra.Data.Repository
+namespace Codenation.Dominio.Interfaces
 {
-    public class ModeloRepository
+  public  interface IMarcaRepository
     {
     }
 }
