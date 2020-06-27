@@ -32,10 +32,16 @@ namespace Codenation.API
         {
             services.AddControllers();
             services.AddDbContext<DataContext>();
+            
             services.AddScoped<IVeiculoService, VeiculosService>();
             services.AddScoped<IVeiculoRepository, VeiculoRepository>();
 
+            services.AddScoped<IMarcaService, MarcaService>();
+            services.AddScoped<IMarcaRepository, MarcaRepository>();
 
+
+            services.AddScoped<IModeloService, ModeloService>();
+            services.AddScoped<IModeloRepository, ModeloRepository>();
 
         }
 
