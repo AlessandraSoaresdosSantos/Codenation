@@ -41,25 +41,47 @@ using Microsoft.AspNetCore.Mvc;
 
         // GET api/modelo/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public ActionResult<Modelo> Get(int id)
         {
-            return "value";
+            Modelo modelo = _modeloService.ModeloById(id);
+
+            if(modelo != null)
+            {
+                return Ok(modelo);
+            }
+            else
+            {
+                return NoContent();
+            }
         }
 
         // POST api/modelo
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public void Post([FromBody] string value)
         {
+
         }
 
         // PUT api/modelo/5
         [HttpPut("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public void Put(int id, [FromBody] string value)
         {
         }
 
         // DELETE api/modelo/5
         [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public void Delete(int id)
         {
         }

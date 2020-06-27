@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace Codenation.Infra.Data.Repository
 {
-   public class MarcaRepository: IMarcaRepository
+    public class MarcaRepository : IMarcaRepository
     {
 
         private readonly DataContext context;
@@ -39,7 +39,7 @@ namespace Codenation.Infra.Data.Repository
             if (_marca != null)
             {
                 _marca.Nome = marca.Nome;
-               
+
                 context.Entry(_marca).State = EntityState.Modified;
                 context.SaveChanges();
             }
@@ -60,3 +60,4 @@ namespace Codenation.Infra.Data.Repository
         }
     }
 }
+ 

@@ -33,5 +33,10 @@ namespace Codenation.Dominio.Services
             return _modeloRepository.GetById(ID);
         }
 
+        public Modelo Salvar(Modelo modelo)
+        {
+            return _modeloRepository.Save(modelo);
+        }
+     
     }
 }
