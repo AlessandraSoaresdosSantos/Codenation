@@ -37,33 +37,82 @@ namespace Codenation.API.Controllers
             {
                 return NoContent();
             }
-        
+
         }
 
-
-        // GET api/<MarcaController>/5
+        // GET api/marca/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public ActionResult<Marca> Get(int id)
         {
-            return "value";
+            var marca = _marcaService.MarcaById(id);
+
+            if (marca != null)
+            {
+                return Ok(marca);
+            }
+            else
+            {
+                return NoContent();
+            }
         }
 
-        // POST api/<MarcaController>
+
+        // POST api/marca
         [HttpPost]
-        public void Post([FromBody] string value)
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public ActionResult<Marca> Post([FromBody] Marca marca)
         {
+            var _marca = _marcaService.Salvar(marca);
+
+            if (_marca != null)
+            {
+                return Ok(_marca);
+            }
+            else
+            {
+                return NoContent();
+            }
         }
 
-        // PUT api/<MarcaController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // PUT api/marca
+        [HttpPut]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+
+        public ActionResult<Marca> Put([FromBody] Marca marca)
         {
+            var _marca = _marcaService.Atualizar(marca);
+
+            if (_marca != null)
+            {
+                return Ok(_marca);
+            }
+            else
+            {
+                return NoContent();
+            }
         }
 
-        // DELETE api/<MarcaController>/5
+        // DELETE api/marca/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public ActionResult<string> Delete(int id)
         {
+            var retorno = _marcaService.Deletar(id);
+
+            if (retorno)
+            {
+                return Ok("Registro delatado com sucesso");
+            }
+            else
+            {
+                return NoContent();
+            }
         }
     }
 }

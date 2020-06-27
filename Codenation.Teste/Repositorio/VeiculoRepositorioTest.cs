@@ -20,8 +20,8 @@ namespace Codenation.Teste.Repositorio
             {
                 AnoFabricacao = 1998,
                 AnoModelo = 1999,
-                Cor = "Azul claro",
-                Imagem = "Imagem veiculo Teste 3",
+                Cor = "Azul da cor do céu",
+                Imagem = "Imagem veiculo Teste em aula",
                 MarcaID = 1,
                 ModeloID = 1,
                 Preco = 34567.89,
@@ -34,16 +34,16 @@ namespace Codenation.Teste.Repositorio
         [Fact]
         public void Adicionar_Veiculo()
         {
-            IVeiculoRepository veiculoRepository = GetInMemoryVeiculoRepository();
+            IVeiculoRepository veiculoRepository = GetVeiculoRepository();
 
             Veiculo veiculo = veiculoRepository.Save(_veiculo);
 
-            Assert.Equal("Azul claro", veiculo.Cor);
-            Assert.Equal("Imagem veiculo Teste 3", veiculo.Imagem);
+            Assert.Equal("Azul da cor do céu", veiculo.Cor);
+            Assert.Equal("Imagem veiculo Teste em aula", veiculo.Imagem);
             Assert.NotNull(veiculo.VersaoID);
         }
 
-        private IVeiculoRepository GetInMemoryVeiculoRepository()
+        private IVeiculoRepository GetVeiculoRepository()
         {
             DbContextOptions<DataContext> options;
             var builder = new DbContextOptionsBuilder<DataContext>();
