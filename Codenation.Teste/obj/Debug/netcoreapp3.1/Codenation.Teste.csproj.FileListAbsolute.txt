@@ -188,7 +188,6 @@ C:\Users\aless\Source\Repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\aless\Source\Repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\xunit.assert.dll
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\xunit.core.dll
@@ -280,3 +279,13 @@ C:\Users\aless\Source\Repos\Codenation2\Codenation.Teste\obj\Debug\netcoreapp3.1
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Teste\obj\Debug\netcoreapp3.1\Codenation.Teste.dll
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Teste\obj\Debug\netcoreapp3.1\Codenation.Teste.pdb
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Teste\obj\Debug\netcoreapp3.1\Codenation.Teste.genruntimeconfig.cache
+C:\Users\aless\source\repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\IdentityModel.dll
+C:\Users\aless\source\repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\IdentityServer4.dll
+C:\Users\aless\source\repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\IdentityServer4.Storage.dll
+C:\Users\aless\source\repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\aless\source\repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\aless\source\repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\aless\source\repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\aless\source\repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\aless\source\repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\aless\source\repos\Codenation2\Codenation.Teste\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

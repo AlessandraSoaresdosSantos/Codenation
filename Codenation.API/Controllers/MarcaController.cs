@@ -2,13 +2,15 @@
 using System.Linq;
 using Codenation.Dominio.Entidades;
 using Codenation.Dominio.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Codenation.API.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [Authorize("Admin")]
+    [ApiController]    
     public class MarcaController : ControllerBase
     {
 

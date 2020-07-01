@@ -13,18 +13,18 @@ namespace Codenation.Infra.Data.Context
 {
     public sealed class DataContext : DbContext, IDisposable
     {
-
+        public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Marca> Marcas { get; set; }
         public DbSet<Modelo> Modelos { get; set; }
         public DbSet<Versao> Versoes { get; set; }
         public DbSet<Carro> Carros { get; set; }
         public DbSet<Veiculo> Veiculos { get; set; }
-         
-         public DataContext(DbContextOptions<DataContext> options)
-            : base(options)
+
+        public DataContext(DbContextOptions<DataContext> options)
+           : base(options)
         {
         }
-          
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -119,7 +119,6 @@ namespace Codenation.Infra.Data.Context
              .HasColumnName("Observacao");
 
             base.OnModelCreating(modelBuilder);
-
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
