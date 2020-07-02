@@ -16,13 +16,14 @@ namespace Codenation.Dominio.Services
         }
         public User GetByEmailPassword(Usuario usuario)
         {
-           var result = _usuarioRepository.GetByEmailPassword(usuario);
-            if(result != null)
+            var result = _usuarioRepository.GetByEmailPassword(usuario);
+            if (result != null)
             {
-                User user = new User { 
-                 ID = result.Email,
-                  ChaveAcesso = result.Password,
-                  Nivel = result.Nivel
+                User user = new User
+                {
+                    Email = result.Email,
+                    Password = result.Password,
+                    Role = result.Role
                 };
                 return user;
             }

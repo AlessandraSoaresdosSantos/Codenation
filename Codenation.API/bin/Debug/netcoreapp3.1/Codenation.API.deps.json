@@ -25,7 +25,6 @@
       "Codenation.API/1.0.0": {
         "dependencies": {
           "Codenation.Infra.Data": "1.0.0",
-          "IdentityServer4": "2.5.3",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "2.2.0",
           "Swashbuckle.AspNetCore": "5.5.1",
           "Swashbuckle.AspNetCore.Swagger": "5.5.1",

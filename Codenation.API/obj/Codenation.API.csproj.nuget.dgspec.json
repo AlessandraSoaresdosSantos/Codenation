@@ -47,10 +47,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "IdentityServer4": {
-              "target": "Package",
-              "version": "[2.5.3, )"
-            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[2.2.0, )"

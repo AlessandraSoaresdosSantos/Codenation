@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Codenation.API.Controllers
 {
     [Route("api/[controller]")]
-    [Authorize("Admin")]
+    [Authorize(Policy = "Admin")]
     [ApiController]    
     public class MarcaController : ControllerBase
     {

@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Codenation.Dominio.Entidades
+﻿namespace Codenation.Dominio.Entidades
 {
     public class User
     {
-        public string ID { get; set; }
-        public string ChaveAcesso { get; set; }
-        public string Nivel { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string Role { get; set; }
     }
 }
