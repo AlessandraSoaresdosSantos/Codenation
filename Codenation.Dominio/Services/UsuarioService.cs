@@ -1,8 +1,5 @@
 ﻿using Codenation.Dominio.Entidades;
 using Codenation.Dominio.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Codenation.Dominio.Services
 {
@@ -25,6 +22,7 @@ namespace Codenation.Dominio.Services
                     Password = result.Password,
                     Role = result.Role
                 };
+
                 return user;
             }
 

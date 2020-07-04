@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Codenation.API.Controllers
 {
     [Route("api/[controller]")]
-    [Authorize(Policy = "Admin")]
+    [Authorize(Policy = "User", Roles = "Comum")]
     [ApiController]    
     public class MarcaController : ControllerBase
     {
@@ -86,8 +86,7 @@ namespace Codenation.API.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-
-        public ActionResult<Marca> Put([FromBody] Marca marca)
+         public ActionResult<Marca> Put([FromBody] Marca marca)
         {
             var _marca = _marcaService.Atualizar(marca);
 

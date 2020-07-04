@@ -34,18 +34,14 @@ namespace Codenation.API
             services.AddControllers();
             services.AddDbContext<DataContext>();
 
-
             services.AddScoped<IMarcaService, MarcaService>();
             services.AddScoped<IMarcaRepository, MarcaRepository>();
-
-            services.AddScoped<IVeiculoService, VeiculosService>();
-            services.AddScoped<IVeiculoRepository, VeiculoRepository>();
-
-            services.AddScoped<IModeloService, ModeloService>();
-            services.AddScoped<IModeloRepository, ModeloRepository>();
             services.AddScoped<UsuarioService, UsuarioService>();
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<SigningConfigurations, SigningConfigurations>();
+
+
+
 
             services.AddSwaggerGen(c =>
             {
@@ -56,7 +52,6 @@ namespace Codenation.API
                         Version = "v1",
                         Description = "WebApi do Projeto Codenation"
                     });
-
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Name = "Authorization",
@@ -82,8 +77,10 @@ namespace Codenation.API
                         new List<string>()
                     }
                 });
-
             });
+
+
+
 
 
             var signingConfigurations = new SigningConfigurations();
@@ -127,6 +124,13 @@ namespace Codenation.API
                     .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme‌​)
                     .RequireRole("Admin")
                     .RequireAuthenticatedUser().Build());
+
+
+                auth.AddPolicy("User", new AuthorizationPolicyBuilder()
+                   .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme‌​)
+                   .RequireRole(new string[] { "Comum", "Financeiro", "RH"})
+                   .RequireAuthenticatedUser().Build());
+ 
 
             });
 

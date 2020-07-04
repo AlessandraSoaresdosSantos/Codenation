@@ -10,9 +10,9 @@ C:\Users\aless\source\repos\Codenation\Codenation.Infra.CrossCuting\obj\Debug\ne
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Infra.CrossCuting\bin\Debug\netcoreapp3.1\Codenation.Infra.CrossCuting.deps.json
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Infra.CrossCuting\bin\Debug\netcoreapp3.1\Codenation.Infra.CrossCuting.dll
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Infra.CrossCuting\bin\Debug\netcoreapp3.1\Codenation.Infra.CrossCuting.pdb
-C:\Users\aless\Source\Repos\Codenation2\Codenation.Infra.CrossCuting\obj\Debug\netcoreapp3.1\Codenation.Infra.CrossCuting.csprojAssemblyReference.cache
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Infra.CrossCuting\obj\Debug\netcoreapp3.1\Codenation.Infra.CrossCuting.AssemblyInfoInputs.cache
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Infra.CrossCuting\obj\Debug\netcoreapp3.1\Codenation.Infra.CrossCuting.AssemblyInfo.cs
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Infra.CrossCuting\obj\Debug\netcoreapp3.1\Codenation.Infra.CrossCuting.csproj.CoreCompileInputs.cache
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Infra.CrossCuting\obj\Debug\netcoreapp3.1\Codenation.Infra.CrossCuting.dll
 C:\Users\aless\Source\Repos\Codenation2\Codenation.Infra.CrossCuting\obj\Debug\netcoreapp3.1\Codenation.Infra.CrossCuting.pdb
+C:\Users\aless\Source\Repos\Codenation2\Codenation.Infra.CrossCuting\obj\Debug\netcoreapp3.1\Codenation.Infra.CrossCuting.csprojAssemblyReference.cache
